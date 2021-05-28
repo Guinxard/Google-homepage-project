@@ -9,32 +9,43 @@
         <div class= "upper">
             <div class= "wrapper">
                 <div class= "Gmb"> 
-                    <a href="https://mail.google.com/mail/&amp;ogbl"style="
-                    padding-right: 0px;">Gmail</a>
+                    <a href="https://mail.google.com/mail/&amp;ogbl"style="padding-right: 0px;">Gmail</a>
                     <a href="https://www.google.com.br/imghp?hl=pt-BR&amp;ogbl">Imagens</a>
                 </div>
-                <div>
-                    <a class="Menus" href=""><img src="./Style/Dots.jpg" style="object-fit: contain;"></a>
-                    <a class="Menus" href=""><img src="./Style/Me!.jpg" style="object-fit: contain;"></a>
+                <div style="display:flex">
+                    <a class="Menus Menusother" href=""><img src="./Style/Dots.jpg" style="object-fit: contain; border-radius: 16px;"></a>
+                    <a class="Menus Menusother" href=""><img src="./Style/Me!.jpg" style="object-fit: contain; padding-left: -5; border-radius: 16px;"></a>
                 </div>
             </div>
         </div>
         <div class="pm" style="margin-top: auto;height: auto;">   
 <div class="centertop" style="text-align: center;min-height: 92px;max-height: 290px;margin-top: 198px;">
     <img src="./Style/googlelogo_color_272x92dp.png" style="max-height:92px;position: relative;object-position: bottom;margin-top: auto;height: 100%;">     
-    
-                </div></div>
+    </div>
+            </div>
+    <div class="midwrapper"  style="display: flex; flex-direction: column; padding-top: 20px;">
         <div class="center" style="text-align:center;">
-            <form action="file:///C:/search" method="GET" role="search"><img src="./Google Homepage Project_files/Searchbox.jpg" style="display: inline;"></form>
-            <input class="PG" value="Pesquisa google" type="submit">
-            <input class="ECS" value="estou com sorte" type="submit">
+            
+            <div class="searchbox">
+                <div class="icon" style="display: flex; padding-right: 13px; padding-left: 15px; align-items: center;"><img src="./Style/Lupa.png"></div>
+                <div class="formwrapper"><form action="file:///C:/search" method="GET" role="search" style="margin:auto; width: 500px; max-width: 500px;"><input class="searcharea"></form></div>
+                <div class="icon" style="display: flex; padding-right: 13px; padding-left: 5px; align-items: center;"><img src="./Style/Kb.png"></div>
+                <div class="icon" style="display: flex; padding-right: 13px; padding-left: 5px; align-items: center;"><img src="./Style/Vc.png"></div>
+            </div>
         </div>
-        <div class="centerlow" style="text-align: center;">
-            <p> Disponibilizado pelo Google em: <a href="file:///C:/Users/Lucas/Documents/Projects/The%20Odin%20Project/The%20Google%20Project/Google-homepage-project/Google%20Homepage%20Project.html" style="color: blue;">English</a></p>
+        <div>
+            <div class="centerlow" style="text-align: center; box-sizing: border-box;">
+                <div class="buttons">
+                    <input class="PG" value="Pesquisa google" type="submit">
+                    <input class="PG" value="Estou com sorte" type="submit">
+                </div>
+                <p> Disponibilizado pelo Google em: <a href="file:///C:/Users/Lucas/Documents/Projects/The%20Odin%20Project/The%20Google%20Project/Google-homepage-project/Google%20Homepage%20Project.html" style="color: blue;">English</a></p>
+            </div>
         </div>
+    </div>
         <div class="low" style="display: flex;text-align: left;color: rgba(0,0,0,.54);font-size: 15px; flex-direction: column;flex-wrap: wrap;justify-content: center;">
             <p style="padding: 15px 30px; margin: 0; border-bottom: 1px solid #adced0;"> Brasil</p>
-            <div class="footer" style="flex-wrap: wrap;">
+            <div id="footer" class="footer" style="flex-wrap: wrap;">
                 <div class="flet" style="display: flex;">
                     <a class= "bflet" href="about.html">Sobre</a>
                     <a class= "bflet" href="advertising.html">Publicidade</a>
